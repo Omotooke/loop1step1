@@ -1,0 +1,60 @@
+body {
+  background-color: #839acf;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  height: 20rem;
+  margin: 10vh auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 3rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  background-color: #f7f5f7;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.card img {
+  height: 30%;
+}
+
+.card h2 {
+  color: #5869cb;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.card p {
+  color: #a29f9f;
+  text-align: center;
+  padding: -5rem;
+}
+.price {
+  color: #505dc2;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.price span {
+  font-size: 2rem;
+}
+.price sup {
+  font-size: 1.2rem;
+}
+
+.price sub {
+  font-size: 1rem;
+}
